@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pawan Trendz - E-commerce</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #fff;
+      color: #222;
+    }
+    header {
+      background: linear-gradient(to right, #ff416c, #ff4b2b);
+      color: white;
+      padding: 20px 40px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 40px;
+      background: #f5f5f5;
+    }
+    .logo {
+      font-weight: bold;
+      font-size: 24px;
+      color: #ff4b2b;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+    .product {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      padding: 20px;
+      text-align: center;
+      transition: 0.3s;
+    }
+    .product img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .product:hover {
+      transform: scale(1.03);
+    }
+    .price {
+      color: #ff4b2b;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+    .btn {
+      background: #ff4b2b;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #f5f5f5;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🔥 Welcome to Pawan Trendz 🔥</h1>
+  <p>Your one-stop fashion hub</p>
+</header>
+
+<nav>
+  <div class="logo">PawanTrendz</div>
+  <div>
+    <a href="#">Home</a> | 
+    <a href="#">Shop</a> | 
+    <a href="#">Contact</a>
+  </div>
+</nav>
+
+<section class="products">
+  <div class="product">
+    <img src="https://via.placeholder.com/220x220?text=T-Shirt" alt="T-Shirt">
+    <h3>Trendy T-Shirt</h3>
+    <p class="price">₹499</p>
+    <button class="btn">Add to Cart</button>
+  </div>
+  <div class="product">
+    <img src="https://via.placeholder.com/220x220?text=Jeans" alt="Jeans">
+    <h3>Stylish Jeans</h3>
+    <p class="price">₹899</p>
+    <button class="btn">Add to Cart</button>
+  </div>
+</section>
+
+<footer>
+  &copy; 2025 Pawan Trendz. All rights reserved.
+</footer>
+
+</body>
+</html>
